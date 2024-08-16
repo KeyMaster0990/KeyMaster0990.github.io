@@ -12,8 +12,8 @@ body {
 section {
     background-color: rgb(235, 80, 168);
     margin: 36px 0px;
-    padding: 36px 36px 60px;
-    width: 640px;
+    padding: 36px 36px 36px;
+    width: 800px;
 }
 
 img {
