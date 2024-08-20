@@ -1,0 +1,38 @@
+#first-paragraph {
+    color: mediumslateblue;
+    background-color: goldenrod;
+    font-style: italic;
+    text-align: center;
+    text-decoration:line-through;
+}
+
+#second-paragraph {
+    color: #8f0b0b;
+    background-color: lightpink;
+    font-size: 20px;
+    text-decoration: underline black
+}
+#bold-paragraph {
+    font-weight:bold;
+    background-color: green;
+}
+
+#span1 {
+    color:blueviolet;
+    font-weight:bold;
+}
+
+#span2 {
+    font-style: inherit;
+    text-decoration: underline;
+}
+
+#span3 {
+    background-color:blue;
+}
+
+#span4 {
+    text-align: center;
+    background-color: lightblue;
+    font-family: sans-serif;
+}
