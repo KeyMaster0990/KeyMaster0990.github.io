@@ -1,0 +1,67 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+/*
+    Thanks bro.
+*/
+
+#postet1 {
+    background-color: rgb(239, 239, 90);
+    padding:20px;
+    margin:15px;
+    width: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#postet2 {
+    background-color: rgb(29, 29, 132);
+    padding:20px;
+    margin:15px;
+    width: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#postet3 {
+    background-color: lavender;
+    padding:20px;
+    margin:15px;
+    width: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#postet4 {
+    background-color: greenyellow;
+    padding:20px;
+    margin:15px;
+    width: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#postet5 {
+    background-color: red;
+    padding:20px;
+    margin:15px;
+    width: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#postet6 {
+    background-color: yellow;
+    padding:20px;
+    margin:15px;
+    width: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#postet1 {
+    background-color: mediumseagreen;
+    padding:20px;
+    margin:15px;
+    width: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
