@@ -13,3 +13,15 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+.light-container {
+    background-color: lightblue;
+    padding: 48px 0px;
+}
+
+.dark-container {
+    background-color: #b03baa;
+    color: black;
+    padding: 48px 0px;
+}
+
