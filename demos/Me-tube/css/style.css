@@ -34,7 +34,6 @@ body {
 }
 
 #header a {
-    
     text-decoration: none;
 }
 
@@ -97,4 +96,38 @@ body {
     color:whitesmoke;
     text-decoration: none;
     background-color: red;
+}
+.metube-item .thumbnail-placeholder0 {
+    aspect-ratio: 16 / 9;
+    /* background: radial-gradient(at top left, rgb(187, 0, 0), whitesmoke); */
+    background-image: url("../images/space6.webp");
+    border-radius: 8px;
+}
+
+.metube-item .thumbnail-placeholder1 {
+    aspect-ratio: 16 / 9;
+    /* background: radial-gradient(at top left, rgb(187, 0, 0), whitesmoke); */
+    background-image: url("../images/space5.jpeg");
+    border-radius: 8px;
+}
+
+.metube-item .thumbnail-placeholder2 {
+    aspect-ratio: 16 / 9;
+    /* background: radial-gradient(at top left, rgb(187, 0, 0), whitesmoke); */
+    background-image: url("../images/space2.jpeg");
+    border-radius: 8px;
+}
+
+.metube-item .thumbnail-placeholder3 {
+    aspect-ratio: 16 / 9;
+    /* background: radial-gradient(at top left, rgb(187, 0, 0), whitesmoke); */
+    background-image: url("../images/space3.jpeg");
+    border-radius: 8px;
+}
+
+.metube-item .thumbnail-placeholder4 {
+    aspect-ratio: 16 / 9;
+    /* background: radial-gradient(at top left, rgb(187, 0, 0), whitesmoke); */
+    background-image: url("../images/space4.jpeg");
+    border-radius: 8px;
 }
