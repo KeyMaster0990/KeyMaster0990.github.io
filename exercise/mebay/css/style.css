@@ -12,6 +12,7 @@ body {
 #grid-layout {
     display: flex;
     flex-direction: row;
+    margin: 30px;
 }
 
 #header {
@@ -21,9 +22,10 @@ body {
 }
 
 #sidebar {
+    margin: 20px;
     justify-content: right;
     grid-area: sidebar;
-    padding: 0px 100px;
+    padding: 0px 50px;
 }
 
 #b1 {
