@@ -11,7 +11,7 @@ body {
 
 #grid-layout {
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     margin: 30px;
 }
 
