@@ -1,0 +1,62 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+.animagram-footer {
+    text-align: center;
+}
+.brand-name {
+    text-align: right;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.card-style-2 img {
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 360px;
+}
+.card-style-2 {
+    margin: 15px;
+    width: 330px;
+
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow: -4px 4px 12px #121212;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-style-2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: darkgreen;
+    display: inline-block;
+    width: 100%;
+    padding: 13px;
+    text-align: center;
+    border: 3px solid green;
+    transition:background-color .5s,color .5s;
+}
+
+.card-style-2 a:hover {
+    background-color: transparent;
+    color: black;
+}
