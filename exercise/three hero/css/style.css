@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box}
+    
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+    
+#hero-1 {
+    background-image: url("../images/brick.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.href {
+    margin: 30px;
+    padding: 30px;
+    justify-content: center;
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    border: solid black 5px;
+
+}
+    
+#hero-1 h1 {
+    color:limegreen;
+    font-size: 15vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+#hero-1 h3 {
+    padding: 15px;
+    border: solid black 5px;
+    background-color: aliceblue;
+    color:purple;
+}
+
+#hero-2 h1 h3{
+    text-align: right;
+    font-size: 15vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+#hero-2 h1 {
+    color: aliceblue;
+}
+
+#hero-2 h3 {
+    color: aliceblue;
+}
+
+#hero-2 {
+    background-image: url("../images/wood.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+}
+
+#hero-2 h1 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+#hero-2 h3 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero-3 {
+    background-image: url("../images/sky.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-3 h1 {
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+    justify-content: center;
+}
+
+#hero-3 h3 {
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+    margin: 0px;
+}
