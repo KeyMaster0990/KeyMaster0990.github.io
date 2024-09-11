@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+}
+
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* use for single colume alyout on final eval */
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+/* Hero */
+
+#hero-3 h1 {
+    display: flex;
+    font-size: 4vw;
+    text-align: center;
+    margin-bottom: 5vh;
+    padding: 15px;
+    border: solid red 10px;
+    color:red;
+    background-color:black;
+    border-radius: 60px;
+}
+
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: white;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 2vw 10vh;
+}
+
+
+#hero-3 {
+    background-image: url("../images/mario.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    border:solid black 8px;
+}
+
+/* Gallery */
+
+h3 {
+    text-align: center;
+    color: red;
+    padding: 10px;
+    background-color: black;
+    border: solid red 7px;
+    border-radius: 60px;
+}
+
+.horizontal-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+    
+.horizontal-masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+    border-radius: 30px;;
+    border: solid black 5px;
+}
