@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    margin: 0px;
+    font-family: sans-serif; 
+}
+
+#layout {
+    max-width: 900px;
+    margin: 48px auto;
+    text-align: center;
+
+    padding: 5px;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+h4 {
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* buttons */
+
+.href {
+    color:white;
+    text-decoration: none;
+    margin: 15px;
+    padding-top: 30px;
+    padding: 10px;
+    text-align: center bottom;
+    background-color: black;
+    border-radius: 30px;
+    border: solid white 5px;
+
+}
+
+.hero3 .href2 {
+    display: inline-block;
+    
+    
+    color:white;
+    text-decoration: none;
+    margin: 15px;
+   
+    padding: 30px;
+    background-color: black;
+    border-radius: 10px;
+    border: solid white 2px;
+
+}
+
+/* Card Layout */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Cards */
+
+.card {
+    flex: 1;
+    border: 3px solid #bfefff;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+
+/* Hero */
+
+#hero-3 h1 {
+    display: flex;
+    font-size: 5vw;
+    justify-content: center;
+    margin-bottom: 5vh;
+    color:white;
+    padding:10px;
+    background-color:black;
+    border-radius: 10px;
+}
+
+
+#hero-3 {
+    background-image: url("../images/hero.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    border:solid black 8px;
+}
+
+/* Gallery */
+
+h3 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    border: solid white 2px;
+    border-radius: 60px;
+}
+
+.horizontal-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+    
+.horizontal-masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+    border-radius: 30px;;
+    border: solid black 5px;
+}
+
+/* ======================================================== */
+
+.vertical-masonry-gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+    
+    
+.vertical-masonry-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
