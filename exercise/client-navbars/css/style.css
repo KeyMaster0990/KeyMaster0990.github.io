@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-bar {
+    border: solid rgb(4, 84, 4) 5px;
+    border-radius: 10px;
+    padding:20px;
+    background-color: burlywood;
+    
+}
+
+#container-6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#layout {
+    max-width: 900px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.link {
+    color: seagreen;
+    text-decoration: none;
+}
+
+h1 {
+
+}
