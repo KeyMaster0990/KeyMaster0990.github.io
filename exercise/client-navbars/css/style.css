@@ -33,11 +33,57 @@ body {
     text-align: center;
 }
 
-.link {
-    color: seagreen;
+.link3 {
+    color: rgb(210, 3, 3);
     text-decoration: none;
 }
 
-h1 {
+.link2 {
+    border: solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 3px;
+}
+.nav-bar2 {
+    
+    border: solid rgb(255, 224, 25) 5px;
+    border-radius: 10px;
+    padding:20px;
+    background-color: rgb(253, 166, 51);
+        
 
+}
+
+#body2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.link4 {
+    color: rgb(77, 6, 85);
+    text-decoration: none;
+}
+
+.link5 {
+    border: solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 3px;
+}
+.nav-bar3 {
+    
+    border: solid rgb(77, 6, 85) 5px;
+    border-radius: 10px;
+    padding:20px;
+    background-color: rgb(221, 136, 24);
+        
+
+}
+
+h4 {
+    padding: 15px;
+    background-color: rgb(29, 162, 29);
 }
