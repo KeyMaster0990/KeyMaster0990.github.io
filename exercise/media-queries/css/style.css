@@ -232,7 +232,7 @@ a {
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
     body {
-    background-color: skyblue;
+    /* background-color: skyblue; */
 }.three-cards {
         display: grid;
 }.three-cards {
@@ -249,7 +249,7 @@ a {
     
 @media screen and (max-width: 480px) {
 body {
-background-color: firebrick;
+/* background-color: firebrick; */
 }.three-cards {
         grid-template-columns: 1fr;
 }#hero h1 {
