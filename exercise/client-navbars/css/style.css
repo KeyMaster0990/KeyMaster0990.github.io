@@ -75,8 +75,8 @@ body {
 }
 .nav-bar3 {
     
-    border: solid rgb(77, 6, 85) 5px;
-    border-radius: 10px;
+    border: solid rgb(77, 6, 85) 3px;
+    border-radius: 10px 10px 0px 0px;
     padding:20px;
     background-color: rgb(221, 136, 24);
         
@@ -86,4 +86,19 @@ body {
 h4 {
     padding: 15px;
     background-color: rgb(29, 162, 29);
+}
+
+.nav-bar4 {
+    
+    border: solid rgb(77, 6, 85) 1px;
+    border-radius: 0px 0px 10px 10px;
+    padding:3px;
+    background-color: rgb(221, 136, 24);
+        
+
+}
+
+#container-9 {
+    display: flex;
+    justify-content: space-between;
 }
