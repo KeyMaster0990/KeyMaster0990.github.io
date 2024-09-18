@@ -444,12 +444,20 @@ body {
 #grid-layout {
     
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
+    grid-template-areas:
+        "header  header  header "
+        "navbar  navbar  navbar "
+        "banner  banner  banner"
+        "card-1  card-2  card-3"
+        "aside   blog    blog"
+        "footer  footer  footer"
+        "bottom  bottom  bottom";
+    /* grid-template-areas: 
     "header header header"
     "nav main main"
     "banner-container banner-container banner-container"
     "card-1 card-2 card-3" 
-    "footer footer footer";
+    "footer footer footer"; */
 }
 
 #header h1 {
@@ -473,7 +481,18 @@ body {
 #grid-layout{
     
         grid-template-columns: 1fr;
-        grid-template-areas: 
+        grid-template-areas:
+        "header"
+        "navbar"
+        "banner"
+        "card-1"
+        "card-2"
+        "card-3"
+        "aside"
+        "blog"
+        "footer"
+        "bottom";
+        /* grid-template-areas: 
         "header"
         "nav"
         "main"
@@ -482,7 +501,7 @@ body {
         "card-2"
         "card-3"
         "aside"
-        "footer";
+        "footer"; */
 }
 
 #shield-image {
