@@ -477,7 +477,19 @@ body {
         "main"
         "aside"
         "footer";
-    }
+}
+
+#shield-image {
+    display: none;
+}
+
+#search-bar {
+    display: none;
+}
+
+#search-button {
+    display: none;
+}
     
 #header h1 {
         font-size: 18px;
