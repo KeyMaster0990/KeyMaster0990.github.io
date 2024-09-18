@@ -441,41 +441,55 @@ body {
 /* TODO: Write your media queries here */
 
 @media screen and (max-width: 1000px) and (min-width: 801px) {
-#grid-layout{
-    display: grid;
+#grid-layout {
+    
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
     "header header header"
-    "main main main"
+    "nav main main"
     "footer footer footer";
-}#header h1 {
-    font-size: 50px;
-}#shield-image{
-    align-items: center;
+}
 
-}#nav a{
-    flex-direction: wrap;
-    align-items: center;
-    flex:150px;
-}}
+#header h1 {
+    font-size: 20px;
+}
+
+#nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#nav a {
+    text-align: center;
+    flex: 1 1 150px;
+}
+}
     
     
 @media screen and (max-width: 800px) {
-body {
-}.three-cards {
-        grid-template-columns: 1fr;
-}#hero h1 {
-        font-size: 28px;
-}#hero h3 {
-        font-size: 28px;
-}#nav{
-    flex-direction: column;
-    align-items: center;
-}#nav-links{
-    flex-direction: column;
-    align-items: center;
-}.two-cards{
-    flex-direction: column;
-    align-items: center;
 
-}}
+#grid-layout{
+    
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "aside"
+        "footer";
+    }
+    
+#header h1 {
+        font-size: 18px;
+    }
+    
+#nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+#nav a{
+        text-align: center;
+        flex:1 1 80%;
+    }
+}
