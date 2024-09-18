@@ -440,13 +440,15 @@ body {
 **************************************************************/
 /* TODO: Write your media queries here */
 
-@media screen and (max-width: 3000px) and (min-width: 2360px) {
+@media screen and (max-width: 1000px) and (min-width: 801px) {
 #grid-layout {
     
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
     "header header header"
     "nav main main"
+    "banner-container banner-container banner-container"
+    "card-1 card-2 card-3" 
     "footer footer footer";
 }
 
@@ -466,7 +468,7 @@ body {
 }
     
     
-@media screen and (max-width: 828px) {
+@media screen and (max-width: 800px) {
 
 #grid-layout{
     
@@ -475,6 +477,10 @@ body {
         "header"
         "nav"
         "main"
+        "banner-container"
+        "card-1"
+        "card-2"
+        "card-3"
         "aside"
         "footer";
 }
