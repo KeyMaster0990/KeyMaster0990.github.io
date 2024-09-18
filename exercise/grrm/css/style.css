@@ -440,7 +440,7 @@ body {
 **************************************************************/
 /* TODO: Write your media queries here */
 
-@media screen and (max-width: 1000px) and (min-width: 801px) {
+@media screen and (max-width: 3000px) and (min-width: 2360px) {
 #grid-layout {
     
     grid-template-columns: 1fr 1fr 1fr;
@@ -466,7 +466,7 @@ body {
 }
     
     
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 828px) {
 
 #grid-layout{
     
