@@ -452,12 +452,6 @@ body {
         "aside   blog    blog"
         "footer  footer  footer"
         "bottom  bottom  bottom";
-    /* grid-template-areas: 
-    "header header header"
-    "nav main main"
-    "banner-container banner-container banner-container"
-    "card-1 card-2 card-3" 
-    "footer footer footer"; */
 }
 
 #header h1 {
@@ -492,16 +486,6 @@ body {
         "blog"
         "footer"
         "bottom";
-        /* grid-template-areas: 
-        "header"
-        "nav"
-        "main"
-        "banner-container"
-        "card-1"
-        "card-2"
-        "card-3"
-        "aside"
-        "footer"; */
 }
 
 #shield-image {
