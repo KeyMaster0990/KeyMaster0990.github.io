@@ -1,86 +1,122 @@
+
+/*******************************************************************************
+                        Site Wide use with Caution!!
+*******************************************************************************/
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0px;
-    font-family: 'Courier New', Courier, monospace
+    font-family: sans-serif; 
 }
 
-#layout {
+body {
     width: 50%;
     min-width: 400px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(184, 124, 46);
 }
 
+h2 {
+    text-align: center;
+    padding: 20px;
+    border: solid black 3px;
+    border-radius: 30px;
+    background-color: #1dbad9;
+}
+
+p {
+    text-align: center;
+    padding: 20px;
+    border: solid black 3px;
+    border-radius: 40px;
+    background-color: #1dbad9;
+}
+
+/*******************************************************************************
+                                    Nav-Bars
+*******************************************************************************/
+
+
+    
 #navbar {
+    background: linear-gradient(to bottom, #109cb8,#0e5b96);
     display: flex;
+    align-items: center;}
     
-    justify-content: space-between;
-    margin: 10px;
-    border: solid rgb(4, 84, 4) 5px;
-    border-radius: 10px;
-    padding:10px;
-    background-color: burlywood;
-    
-}
-
-#logo {
-    text-decoration: none;
-    background-color: red;
-}
 #navbar a {
-    border: solid black;
-    border-radius: 5px;
+    display: inline-block;
     text-decoration: none;
-    
-    color: black;
-    padding: 1px;
-    
-    background-color: aliceblue;
-}
-
-#drop-down {
-    position: relative;}
-    
-#drop-down .content {
-    position: absolute;
-    background-color: white;
-    border: 3px solid black;
-    border-radius: 12px;
-    box-shadow: 4px 4px 4px #00000033;
-    left: 0px;
-    margin: 0px 24px;
+    color: white;
     padding: 24px;
+    margin-right: auto;
+}
+    
+#navbar a:hover {
+    background: linear-gradient(to top, #109cb8,#0e5b96);}
+    
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+    
+.dropdown-container {
+    position: relative;
+}
+    
+    
+.dropdown-menu {
+    position: absolute;
     opacity: 0;
     visibility: hidden;
-    transform: translateY(-8px);
-    transition: opacity 0.5s,visibility 0.5s,transform 0.5s;
+    transition: opacity 0.25s,visibility 0.25s;
 }
     
-#drop-down:hover .content {
+    
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+    
+    
+.dropdown-container:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
-    transform: translateY(0px);
+}
+    
+.dropdown-menu a {
+    background-color: darkslateblue;
+    width: 100%;
+    min-width: 200px;
+}
+    
+#navbar .dropdown-menu a:hover {
+    background: slateblue;
 }
 
-/* Hero */
 
-#hero-3 h1 {
+/*******************************************************************************
+                                    Hero-HOME
+*******************************************************************************/
+
+
+#hero h2 {
     display: flex;
-    font-size: 4vw;
+    font-size: 2vw;
     text-align: center;
     margin-bottom: 5vh;
     padding: 15px;
-    border: solid red 10px;
-    color:red;
-    background-color:black;
+   
+    color:black;
+    background-color:white;
     border-radius: 60px;
 }
 
-#hero-3 a {
+#hero a {
     font-size: 1.5vw;
     display: inline-block;
     background-color: white;
@@ -91,40 +127,57 @@ body {
 }
 
 
-#hero-3 {
-    background-image: url("../images/hero.jpg");
-    height: 100vh;
+#hero {
+    background-image: url("../images/hero1.jpg");
+    height: 90vh;
     background-size: cover;
     background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 60px;
-    border:solid black 8px;
+    border:solid black 3px;
 }
 
+/*******************************************************************************
+                                    Hero-1+3
+*******************************************************************************/
 
+#hero2 {
+    background-image: url("../images/huggy.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    border:solid black 3px;
+}
 
+#hero3 {
+    background-image: url("../images/max.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    border:solid black 3px;
+}
 
-
-
-
-
-
-
-/* body {
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
-    grid-template-areas:
-        "navbar navbar  navbar  navbar  navbar"
-        "left-accent    right-accent"
-        "left-accent  banner  banner  banner  right-accent"
-        "left-accent  card-1  card-2  card-3  right-accent"
-        "left-accent  aside   blog    blog    right-accent"
-        ".            footer  footer  footer  ."
-        ".            bottom  bottom  bottom  .";
-} */
-
+#hero4 {
+    background-image: url("../images/spooky.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    border:solid black 3px;
+}
 
 /*******************************************************************************
                                     Media Queries
@@ -148,22 +201,66 @@ body {
     
     
 @media screen and (max-width: 480px) {
-body {
-/* background-color: firebrick; */
-}.three-cards {
-        grid-template-columns: 1fr;
-}#hero h1 {
-        font-size: 28px;
-}#hero h3 {
-        font-size: 28px;
-}#nav{
-    flex-direction: column;
-    align-items: center;
-}#nav-links{
-    flex-direction: column;
-    align-items: center;
-}.two-cards{
-    flex-direction: column;
-    align-items: center;
+}
+#navbar #logo{
+        margin-right: auto;
+        font-weight: bold;
+        font-size: 20px;
+        padding-top: 13px;
+        padding-bottom: 12px;
+    }
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin-right: auto;
+}
 
-}}
+#hero {
+    background-image: url("../images/hero1.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    border:solid black 3px;
+}
+
+#hero2 {
+    background-image: url("../images/huggy.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    border:solid black 3px;
+}
+
+#hero3 {
+    background-image: url("../images/max.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    border:solid black 3px;
+}
+
+#hero4 {
+    background-image: url("../images/spooky.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    border:solid black 3px;
+}
