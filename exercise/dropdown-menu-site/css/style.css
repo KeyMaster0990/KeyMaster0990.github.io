@@ -24,7 +24,7 @@ h2 {
     padding: 20px;
     border: solid black 3px;
     border-radius: 30px;
-    background-color: #1dbad9;
+    background-color: #dca118;
 }
 
 p {
@@ -32,7 +32,7 @@ p {
     padding: 20px;
     border: solid black 3px;
     border-radius: 40px;
-    background-color: #1dbad9;
+    background-color: #dca118;
 }
 
 /*******************************************************************************
@@ -42,9 +42,12 @@ p {
 
     
 #navbar {
-    background: linear-gradient(to bottom, #109cb8,#0e5b96);
+    background: radial-gradient(at top left, crimson, orange);
     display: flex;
-    align-items: center;}
+    align-items: center;
+    border-radius: 60px;
+    border: solid black 3px;
+}
     
 #navbar a {
     display: inline-block;
@@ -55,7 +58,8 @@ p {
 }
     
 #navbar a:hover {
-    background: linear-gradient(to top, #109cb8,#0e5b96);}
+    background: radial-gradient(at top left, crimson, orange);
+}
     
 #navbar #logo {
     margin-right: auto;
@@ -89,13 +93,13 @@ p {
 }
     
 .dropdown-menu a {
-    background-color: darkslateblue;
+    background-color: rgb(176, 84, 42);
     width: 100%;
     min-width: 200px;
 }
     
 #navbar .dropdown-menu a:hover {
-    background: slateblue;
+    background: rgb(183, 93, 44);
 }
 
 
@@ -137,6 +141,7 @@ p {
     align-items: center;
     border-radius: 60px;
     border:solid black 3px;
+    margin-top: 10px;
 }
 
 /*******************************************************************************
@@ -183,22 +188,7 @@ p {
                                     Media Queries
 *******************************************************************************/
 
-@media screen and (max-width: 1000px) and (min-width: 481px) {
-    body {
-    /* background-color: skyblue; */
-}.three-cards {
-        display: grid;
-}.three-cards {
-        grid-template-columns: 1fr 1fr;
-}#hero h1 {
-    font-size: 28px;
-}#hero h3 {
-    font-size: 28px;
-}#nav{
-    flex-direction: column;
-    align-items: center;
-}}
-    
+
     
 @media screen and (max-width: 480px) {
 }
@@ -228,6 +218,8 @@ p {
     border-radius: 60px;
     border:solid black 3px;
 }
+
+
 
 #hero2 {
     background-image: url("../images/huggy.jpg");
