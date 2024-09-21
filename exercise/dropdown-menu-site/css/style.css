@@ -17,6 +17,7 @@ body {
     min-width: 400px;
     margin-left: auto;
     margin-right: auto;
+    background-image: url("../images/background.jpg");
 }
 
 h2 {
@@ -59,6 +60,7 @@ p {
     
 #navbar a:hover {
     background: radial-gradient(at top left, crimson, orange);
+    border-radius: 60px;
 }
     
 #navbar #logo {
@@ -96,11 +98,15 @@ p {
     background-color: rgb(176, 84, 42);
     width: 100%;
     min-width: 200px;
+    border-radius: 60px;
+
 }
     
 #navbar .dropdown-menu a:hover {
     background: rgb(183, 93, 44);
+    border-radius: 60px;
 }
+
 
 
 /*******************************************************************************
