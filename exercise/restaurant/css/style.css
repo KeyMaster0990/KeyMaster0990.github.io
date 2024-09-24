@@ -143,7 +143,7 @@ h2 {
 
 
 #hero {
-    background-image: url("../images/hero.webp");
+    background-image: url("../images/hero.jpg");
     height: 90vh;
     background-size: cover;
     background-position: center center;
@@ -220,7 +220,7 @@ h2 {
 }
 
 #hero {
-    background-image: url("../images/hero.webp");
+    background-image: url("../images/hero.jpg");
     height: 50vh;
     background-size: cover;
     background-position: center center;
